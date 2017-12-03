@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+  background-image: url(../images/fondogracias.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  font-family: monospace;
+}
+
+.mensaje{
+  background-color: #fff;
+  width: 450px;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 20px 20px;
+  margin-top: 150px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px 5px #040303;
+}
+h1{
+  text-align: center;
+  font-size: 17px;
+  color:green;
+}
+h2{
+  text-align: center;
+  font-size: 14px;
+}
+button{
+  background-color: #A72A3B ;
+  margin-top: 6px;
+  border-radius: 5px;
+  margin-left: 250px;
+  padding: 11px 20px;
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+button:hover{
+  margin-top: 6px;
+  border-radius: 5px;
+  background-color: #E50523;
+  margin-left: 250px;
+  padding: 13px 20px;
+  color: white;
+  cursor: pointer;
+}
+i{
+  font-size: 30px;
+  margin-left: 180px;
+}

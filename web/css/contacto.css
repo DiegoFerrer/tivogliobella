@@ -1,0 +1,85 @@
+form{
+	width: 450px;
+	margin-left: -40px;
+	margin-top: -50px;
+	background-color: #BA97B7;	
+	padding: 10px 20px;
+	box-sizing: border-box; /* Para que el padding sea hacia adentro*/
+	border-radius: 10px;	
+	margin-bottom: 20px;
+}
+h1.form{
+	font-family: monospace;
+	font-style: normal;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 20px;
+	margin-top: -20px;
+}
+input,textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	border-radius: 6px;
+}
+textarea{
+	min-height: 100px; /* Minimo de alto*/
+	max-height: 200px; /* Maximo de alto*/
+	max-width: 100%
+}
+input:focus,textarea:focus{	
+	border: 3px solid #080708;
+	border-radius: 5px;
+	outline: 0px;
+
+}
+#botonform{
+	background: #5A595A;
+	color: #fff;
+	padding: 20px;
+	border-style: none;
+}
+#botonform:hover{
+	cursor: pointer;
+	border: 2px solid #E02DC5;
+}
+/*#botonform:active{
+	transform: scale(1.05);
+}
+*/
+.titleform{
+	color:white;
+	font-weight: bold;
+	font-size: 15px;
+}
+#map{
+	margin-left: 30px;	
+	margin-bottom: 20px;
+}
+#mapa{
+	border: 4px solid #BA97B7;
+	border-radius: 7px;
+	margin-bottom: 10px;
+
+}
+#telep{   
+	margin-left: 60px;	
+}
+#faceb{
+	margin-top: 20px;
+}
+
+@media (max-width: 480px){
+	form{
+		width: 100%
+	}
+}
+.datos0{
+	text-align:center;
+	font-size: 25px;
+	
+}
+
